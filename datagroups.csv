@@ -1,0 +1,151 @@
+id,model_name,name,trigger_value,trigger_error,stale_before,trigger_check_at,triggered_at,created_at
+1,athena,athena_default_datagroup,,,,,,1562738053
+2,core_analytics,subscription_datagroup,2024-07-24,,1721894113,1721938256,,1563901345
+3,core_analytics,filtered_sublime,2023-01-02,,1672733264,1672766103,,1564074230
+4,core_analytics,datorama_datagroup,2019-11-06,"SQL compilation error:
+'DSS_PROD.DSS.ADOBE_MTA' does not exist or not authorized.",1573157714,1620852179,,1564528685
+5,marketing,adobe_datagroup,19360,,1672740623,1672766104,,1564581840
+6,marketing,subscription_datagroup,2023-01-02,,1672739855,1672766105,,1564797999
+7,dev_disney_plus,content_datagroup,2020-10-31,,1604311776,1604358594,,1566583715
+8,athena,subscription_datagroup,2023-01-05,,1672988380,1673042591,,1568234694
+9,dev_disney_plus,error_detection,,"SQL compilation error: error line 6 at position 14
+identifier 'START_DATE_UTC'",1570226948,1604358594,,1570050655
+10,dev_disney_plus,kalin_dashboard_test,,"SQL compilation error: error line 1 at position 11
+identifier 'CHECK_TIMESTAMP'",,1604358595,,1571433013
+11,disney_plus,adobe_datagroup,19360,,1672743842,1672766106,,1573891664
+12,test_verified,subscription_datagroup,2020-02-04,,1580908247,1580936845,,1580544602
+13,test_verified,datorama_datagroup,,"SQL compilation error:
+'DSS_PROD.DSS.ADOBE_MTA' does not exist or not authorized.",,1580936845,,1580544603
+14,arc_prod_model,arc_series_level,2022-08-30,"SQL compilation error:
+'DIM_DISNEY_ENTITLED_ACCOUNTS_FOR_CONTENT' does not exist or not authorized.",1662060519,1672604134,,1584688063
+15,espn_plus,covid_refresh,19929,,1721883705,1721937652,,1586203031
+16,arc_prod_model,arc_metric_store_level,2023-01-01T13:00:00+00:00,,1672607747,1672604134,,1595952414
+17,arc_prod_model,arc_realtime_metric_store_level,2021-11-17T14:00:00+00:00,"SQL compilation error:
+definition for 'DSS_PROD.DISNEY_PLUS.FACT_DISNEY_CONTENT_REALTIME_METRIC_STORE_V' declared 15 column(s), but view query produces 17 column(s).",1637180469,1641068268,,1597396213
+18,da_hub_test,hub_realtime_metric_store_level,2021-11-17T14:00:00+00:00,"SQL compilation error:
+definition for 'DSS_PROD.DISNEY_PLUS.FACT_DISNEY_CONTENT_REALTIME_METRIC_STORE_V' declared 15 column(s), but view query produces 17 column(s).",1637180469,1641068166,,1599721356
+19,snowflake_usage_block,snowflake_usage_block_default_datagroup,,,,,,1600910410
+20,disney_plus,datos_datagroup,39859,,1721911205,1721937481,,1604520398
+21,disney_plus,subs_ms_datagroup,2024-07-24,,1721913222,1721938701,,1620079670
+22,disney_plus,subscriber_metric_store_datagroup,2024-07-24,,1721907568,1721937479,,1620159011
+23,disney_plus,watches_agg_devicetype_datagroup,2024-07-24,,1721913222,1721937479,,1620159014
+24,disney_plus,sm_daily_account_engagement_cohort_datagroup,2024-02-04,,1707144233,1707154803,,1620327638
+25,disney_plus,subs_ms_backfill_datagroup,2021-08-26,,1630094097,1672766109,,1622228422
+26,dge_disney_plus,subscriber_metric_store_datagroup,2024-07-24,,1721907568,1721937677,,1632762306
+27,acquisition_analytics,subscription_datagroup,2024-07-24,,1721894113,1721938700,,1633098737
+28,wds_disney_plus,subscriber_metric_store_datagroup,2024-02-21,,1708601224,1708625276,,1635429686
+29,disney_plus,subs_ms_datagroup_sunday_send,2021-12-11,,1639327049,1639606844,,1635444574
+30,disney_plus,subs_ms_datagroup_monday_send,2021-12-12,,1639413446,1639606844,,1635449463
+31,espn_plus,eplus_subs,2024-02-25,"SQL compilation error:
+'DSS_PROD' does not exist or not authorized.",1708950676,1721937653,,1637006427
+32,disney_plus,service_subs_ms_datagroup_NPA,2024-07-24,,1721913222,1721938701,,1639607456
+33,disney_plus,service_subs_ms_datagroup_sunday_send_NPA,2024-07-20,,1721567048,1721938702,,1639607457
+34,disney_plus,service_subs_ms_datagroup_monday_send_NPA,2024-07-21,,1721656058,1721938702,,1639607458
+35,disney_plus,unified_subs_ms_datagroup_NPA,2024-07-24,,1721911205,1721938702,,1639607460
+36,disney_plus,unified_subs_ms_datagroup_sunday_send_NPA,2024-07-20,,1721565183,1721938703,,1639607462
+37,disney_plus,unified_subs_ms_datagroup_monday_send_NPA,2024-07-21,,1721656058,1721938703,,1639607463
+38,search_platform,search_metrics_store_datagroup,445848,,1721869696,1721937677,,1641391518
+39,unified_subscribers,dim_subscriptions_v_datagroup,2024-07-24,,1721895297,1721937482,,1642631107
+40,unified_subscribers,unified_subs_ms_datagroup,2024-07-24,,1721911205,1721937676,,1643232740
+41,dss_hub,subscriber_metric_store_datagroup,2022-02-17,,1645194241,1645215663,,1643745175
+42,cost_attribution,cost_attribution_default_datagroup,,,,,,1643925133
+43,corporate_controllership,subscriber_metric_store_datagroup,2024-07-24,,1721907568,1721937680,,1644428535
+44,disney_plus,unified_subs_ms_datagroup_fiscal_month_NPA,2024-06-30,,1720230579,1721938703,,1644882268
+45,disney_plus,sm_dim_disney_search_sessions_v_datagroup,2022-03-25T01:38:50-07:00,,1648216555,1648236114,,1644952307
+46,disney_plus,glimpsev2_user_navigation_datagroup,2024-07-24T06:21:57-07:00,,1721845802,1721937480,,1644952412
+47,disney_plus,audience_segment_and_rfe_aggregates_using_behavior_store_datagroup,2024-07-14,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.AUDIENCE_SEGMENT_AND_RFE_AGGREGATES_USING_BEHAVIOR_STORE_V' does not exist or not authorized.",1721056936,1721937480,,1644952413
+48,disney_plus,dim_disney_subscribers_datagroup,2023-05-10,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.DIM_DISNEY_SUBSCRIBERS' does not exist or not authorized.",1683800535,1721937481,,1644952413
+49,disney_plus,dim_disney_subscriptions_datagroup,2022-10-25,,1666783663,1666793007,,1644953795
+50,dss_dqe,dss_dqe_default_datagroup,,,,,,1645200439
+51,disney_plus,unified_subs_ms_datagroup,2024-07-24,,1721911205,1721938700,,1647024799
+52,disney_plus,glimpsev2_sessions_v_datagroup,2024-07-23,,1721846973,1721937479,,1648236727
+53,disney_plus,dim_disney_search_terms_datagroup,2022-08-08,,1660066815,1721937479,,1648236728
+54,core_analytics,conviva_datagroup,2024-07-25,,1721926878,1721938256,,1648488826
+55,disney_plus,glimpsev2_conversion_funnel_prod_datagroup,2024-07-24,,1721915146,1721937481,,1648662543
+56,global_content,subscriber_metric_store_datagroup,2024-07-24,,1721907568,1721937680,,1652466305
+57,unified_subscribers,subs_subscription_datagroup,2024-07-24,,1721891559,1721937676,,1655276675
+58,unified_subscribers,promo_ft_datagroup,2023-12-22,,1719933033,1721937675,,1655934223
+59,dev_disney_plus,subscriber_metric_store_datagroup,2024-06-19,,1718914389,1721937950,,1658513296
+60,dss_adops,dss_adops_default_datagroup,,,,,,1659923099
+61,disney_plus,conviva_datagroup,2024-07-25,,1721926878,1721937481,,1660337060
+62,unified_subscribers,dim_unified_subscribers_v_datagroup,2024-07-24,,1721907568,1721937673,,1661298254
+63,search_platform,search_metrics_train_sample,,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.SEARCH_METRIC_TRAIN_SAMPLE' does not exist or not authorized.",,1721937678,,1661867051
+64,search_platform,search_metrics_auc,,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.SEARCH_METRIC_AUC_NEW' does not exist or not authorized.",,1721937678,,1661867052
+65,search_platform,search_model_metrics_exp,,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.SEARCH_METRIC_MODEL_EXP' does not exist or not authorized.",,1721937678,,1661867052
+66,search_platform,search_metrics_update_time,,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.""search_model_update_time_new""' does not exist or not authorized.",,1721937679,,1661867052
+67,search_platform,search_metrics_features,,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.""search_model_metric_features""' does not exist or not authorized.",,1721937679,,1661867052
+68,acquisition_analytics_staging,subscription_datagroup,2022-01-09,,1665731112,1721937949,,1665731110
+69,dss_dq_engineering,dss_dqe_default_datagroup,,,,,,1665781581
+70,international_analytics,subscriber_metric_store_datagroup,2024-07-24,,1721907568,1721937680,,1667932320
+71,search_platform,search_metrics_auc_multi,,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.SEARCH_METRIC_AUC_MULTILINGUAL_NEW2' does not exist or not authorized.",,1721937678,,1669074935
+72,international_analytics,audience_segment_and_rfe_aggregates_using_behavior_store_datagroup,2024-07-14,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.AUDIENCE_SEGMENT_AND_RFE_AGGREGATES_USING_BEHAVIOR_STORE_V' does not exist or not authorized.",1721056936,1721937680,,1671576892
+73,mdg,mdg_default_datagroup,,,,,,1672840155
+74,subscriber_analytics,cw_poc_default_datagroup,,,,,,1676400411
+75,subscriber_analytics,subscriber_default_datagroup,,,,,,1676587818
+76,xchannel_dq_prod,marketing_dq_dev_default_datagroup,,,,,,1677084528
+77,xchannel_dq_dev,marketing_dq_dev_default_datagroup,,,,,,1677084528
+78,unified_subscribers,dim_service_subscribers_v_datagroup,2024-07-24,,1721905325,1721937675,,1677090287
+79,subscriber_analytics,subscriber_analytics_default,,,,,,1677694443
+80,subscriber_analytics,unified_subscriber_datagroup,2024-07-24,,1721909612,1721938256,,1677694447
+81,unified_subscribers,service_subs_ms_datagroup,2024-07-24,,1721911205,1721937676,,1677875712
+82,search_platform,search_features,,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.""search_features""' does not exist or not authorized.",,1721937679,,1678455710
+83,search_platform,search_model_importance,,"SQL compilation error:
+'DSS_PROD.DISNEY_PLUS.""search_features_importance""' does not exist or not authorized.",,1721937679,,1678455710
+84,dss_international,dss_international_default_datagroup,,,,,,1680534182
+85,dss_international_analytics,dss_international_default_datagroup,,,,,,1680537836
+86,disney_plus,concurrent_streams_title_datagroup,2024-07-24T23:59:00+00:00,,1721921879,1721937481,,1681155758
+87,dss_apac,kmrb_group,2023-09-13,"SQL compilation error:
+'Y_JW_KMRB_OPERATION' does not exist or not authorized.",1694646624,1721937652,,1681374655
+88,csm_vision,csm_vision_model_default_datagroup,,,,,,1681910989
+89,quicksilver_vision,csm_vision_model_default_datagroup,,,,,,1681999227
+90,subscriber_analytics,service_subscriber_datagroup,2024-07-24,,1721911441,1721938256,,1683046951
+91,scm_cost,mysql_sf_bigdatadb_default_datagroup,,,,,,1683210194
+92,dcyphr,_default_datagroup,,,,,,1683997951
+93,quicksilver_vision,test_event,,"error parsing url : wrong failover parameter format in connection String jdbc:mysql:aurora://dynamicscaling-looker-proxy-nlb-ec35983eea8bbc69.elb.us-east-1.amazonaws.com:3306/vision_metrics?permitMysqlScheme&zeroDateTimeBehavior=convertToNull&tcpKeepAlive=true&useSSL=true&requireSSL=true&enabledSslProtocolSuites=TLSv1.2,TLSv1.3&trustServerCertificate=true&allowLocalInfile=false&usePipelineAuth=false",1718075022,1721938558,,1684521913
+94,disney_plus,engagement_overview_v2_datagroup,2023-05-01,,1696445774,1721937480,,1684528668
+95,data_store_services,mysql_sf_bigdatadb_default_datagroup,,,,,,1684787148
+96,subscriber_analytics,unified_subscriber_datagroup_NPA,2024-07-23,,1721908999,1721938257,,1686234133
+97,ballast_waf,ballast_waf_dev01_default_datagroup,,,,,,1686579854
+98,nucleus,nucleus_scanner_data_group,2024-07-25T19:50:24.067871+00:00,,1721937501,1721938558,,1688564393
+99,compute,compute_kpis_prod_default_datagroup,,,,,,1689793300
+100,droid_jira,ballast_waf_dev01_default_datagroup_2,,,,,,1691158558
+101,cost_data_mart,cost_attribution_default_datagroup,,,,,,1691510564
+102,legacy_hulu_content360,content360_rolling100_load,20240724,,1721906555,1721937652,,1694810200
+103,legacy_hulu_content360,content360_monthly_agg_load,2596636745,,1719834099,1721937653,,1694810200
+104,legacy_hulu_content360,content360_weekly_agg_load,4311949698,,1721562013,1721937653,,1694810201
+105,legacy_hulu_content360,content360_monthly_withHPS_agg_load,20240720,,1721558653,1721937654,,1694810201
+106,legacy_hulu_content360,content360_monthly_reach_load,2596636745,,1719834099,1721937654,,1694810201
+107,legacy_hulu_content360,content360_weekly_reach_load,4311949698,,1721562013,1721937654,,1694810202
+108,legacy_hulu_content360,content360_100days_post_launch_load,20240724,,1721906557,1721937654,,1694810202
+109,dss_international_analytics,unified_subscriber_datagroup,,"SQL compilation error:
+'INTERNATIONAL_CW.PUBLISH.UNIFIED_SUBSCRIBER_METRIC_BI_AGG_VW' does not exist or not authorized.",,1698178959,,1696530301
+110,dss_international_analytics_view,dss_international_default_datagroup,,,,,,1698180186
+111,dss_international_analytics_view,unified_subscriber_datagroup,2024-07-24,,1721910212,1721937652,,1698180187
+112,subscriber_analytics,unified_subscriber_plan_switch_datagroup,2024-07-24,,1721913268,1721938258,,1699039952
+113,disney_plus,international_engagement_overview_datagroup,2024-02-29,,1709311843,1709330443,,1700070832
+114,cost_data_mart_databricks,cost_data_mart_databricks_default_datagroup,,,,,,1704096095
+115,product_tech,conviva_datagroup,2024-07-25,,1721927443,1721938073,,1706213004
+116,product_tech,subscriber_metric_store_datagroup,2024-07-24,,1721909770,1721937652,,1708117426
+117,cost_data_mart_databricks_unity,cost_attribution_default_datagroup,,,,,,1708553684
+118,engagement_analytics,international_engagement_overview_datagroup,2024-03-02,,1709483505,1709569867,,1709330678
+119,engagement_analytics,ads_engagement_overview_datagroup,2024-07-24,,1721925152,1721937652,,1709571697
+120,ballast_waf_dev,ballast_waf_dev01_default_datagroup,,,,,,1710956145
+121,commerce_analytics,datos_datagroup,39859,,1721908994,1721937653,,1711470807
+122,tech_databricks_unity,concurrent_streams_title_datagroup,2024-07-24 23:59:00 +0000,,1721917840,1721938558,,1711546889
+123,subscriber_analytics,unified_subs_ms_datagroup_sunday_send_NPA,2024-07-20,,1721651624,1721938257,,1714511577
+124,subscriber_analytics,unified_subs_ms_datagroup_monday_send_NPA,2024-07-21,,1721736671,1721938257,,1714511577
+125,subscriber_analytics,unified_subs_ms_datagroup_fiscal_month_NPA,2024-06-30,,1719921975,1721938258,,1714511578
+126,tech_databricks_unity,cdn_imag_logs_datagroup,2024-07-23,,1721928213,1721938559,,1719600239
+127,acquisition,media360_datagroup,105450358,,1721928831,1721928824,,1719864259
+128,subscriber_analytics,hulu_service_subscriber_plan_switch_datagroup,2024-07-24,,1721907187,1721938258,,1719951135
+129,dss_accounting,dg_payments_default,1721936123,,1721936123,1721938558,,1721329994
